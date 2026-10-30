@@ -91,7 +91,7 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:va
 .hero p.lead{margin-bottom:2.2rem}
 .actions{display:flex;gap:14px;flex-wrap:wrap}
 .frame{position:relative;max-width:440px;justify-self:end;width:100%}
-.frame::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1px solid var(--lime);border-radius:999px 999px 0 0;opacity:.7}
+.frame::before{content:"";position:absolute;inset:-14px;border:1px solid var(--lime);border-radius:999px 999px 0 0;opacity:.7}
 .frame img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 12%;border-radius:999px 999px 0 0;background:var(--band-2)}
 .creds{border-top:1px solid var(--band-line);margin-top:clamp(40px,6vw,72px);padding-top:22px;display:flex;flex-wrap:wrap;gap:10px 34px;font-size:.84rem;letter-spacing:.08em;text-transform:uppercase;color:var(--band-muted)}
 
@@ -217,7 +217,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   .row2{grid-template-columns:1fr}
   .nav ul{display:none}
   .hero-grid,.about-grid,.split,.contact-grid{grid-template-columns:1fr}
-  .frame{justify-self:center;order:-1;max-width:320px;margin-right:18px}
+  .frame{justify-self:center;order:-1;max-width:320px}
   .portrait{margin:0 auto 16px;max-width:320px}
   .about-grid{gap:44px}
   .svc-group{grid-template-columns:1fr;gap:18px}
